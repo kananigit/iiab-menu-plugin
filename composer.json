@@ -1,0 +1,18 @@
+{
+    "name": "hyracbox/hyracbox-menu-plugin",
+    "description": "Wordpress plugin for the Hyrac Box Server Home",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "J Kanani",
+            "email": "kanani.joshua@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload":{
+        "psr-4":{"Inc\\":"./inc"}
+    }
+}
