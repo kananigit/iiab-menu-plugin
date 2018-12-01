@@ -7,6 +7,8 @@ Click on the Menu title "IIAB menu" from your sidebar navigation to acess a list
 
 After selecting the menu items you want scroll to the bottom and click "Save Changes".  
 
+# Note
+When you download the plugin from github it will rename the folder to "iiab-menu-plugin-master".  Rename it back to just "iiab-menu-plugin" before you upload it to wordpress to avoid any issues.
 
 # Displaying the Menu Items In the front end
 
