@@ -49,13 +49,14 @@ class TemplateController extends BaseController
 		// If is the front page, load a custom template
 		//check wordpress conditionals to get more flags. You can even check for a specific page
 		//Create a switch statements to check for different pages and load different templates.
+		/*
 		if ( is_front_page() ) {
 			//$file = $this->plugin_path . 'page-templates/front-page.php';
 			$file = $this->plugin_path . 'page-templates/page-iiab-home.php';
 			if ( file_exists( $file ) ) {
 				return $file;
 			}
-		}
+		}  */
 		
 		$template_name = get_post_meta( $post->ID, '_wp_page_template', true );
 		if ( ! isset( $this->templates[$template_name] ) ) {
