@@ -12,11 +12,11 @@ When you download the plugin from github it will rename the folder to "iiab-menu
 
 # Displaying the Menu Items In the front end
 
-Currently  the plugin overrides the front page of your wordpress installation to show the IIAB menu items homepage. I have a plan to make that optional.
+Currently  the plugin does not automatically display the menu items in the front page of your wordpress installation. I have to give the user an option to do that.
 
 The plugin can display the menu items in any Wordpress page. Just create a new page and select "page-iiab-home" template.
 
-When you visit the page in the front end you will see the list of your selected menu items.
+Visit the created page and you will see the selected iiab menu items.
 
 
 
@@ -70,3 +70,14 @@ Save a copy of these original file and delete these array and edit your head tag
         </head>
     
 Thats all you have to do and now whenever you update your list of menu items from the Wordpress plugin, the changes will show in the iiab homepage in 172.18.96.1/home  
+
+
+
+
+Improvements
+Currently your menu items will show in wordpress using the images at https://github.com/iiab/iiab-menu/tree/master/menu-files/images . 
+
+Most of them are meant to be logos and they might be blurry since they have a very small resolution. I have started to create a version of the images that has a 
+higer resolution so that they look better in wordpress.
+
+But am only doing a couple that i normally use. I will share a link to that soon.
