@@ -1,4 +1,4 @@
-# Hyrac Box Menu Plugin
+# Internet in a Box Menu Plugin
 
 Wordpress plugin to display Menu items for Internet in a Box server.
 
