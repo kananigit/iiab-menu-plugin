@@ -4,7 +4,7 @@
 
 	<ul class="nav nav-tabs">
 		<li class="active"><a href="#tab-1">Manage Settings</a></li>
-		<li><a href="#tab-2">Updates</a></li>
+		<li><a href="#tab-2">Poweroff / Restart</a></li>
 		<li><a href="#tab-3">About</a></li>
 	</ul>
 
@@ -69,11 +69,67 @@
 		</div>
 
 		<div id="tab-2" class="tab-pane">
-			<h3>Updates</h3>
+			
+			<h3>Shut Down the Hyrac Box Server</h3>
+			<form method="post" onsubmit="return confirm('Shutdown initiated. Press OK to confirm!');">
+			    <input type="submit" name="poweroff" id="poweroff" value="PowerOff" /><br>
+			</form>
+
+			<br/><br/><br/>
+
+			<h3>Restart the Hyrac Box Server</h3>
+			<form method="post" onsubmit="return confirm('Restart Server initiated. Press OK to confirm!');">
+			    <input type="submit" name="restart" id="restart" value="   Restart   " /><br>
+			</form>
+
+			<?php
+
+				function poweroffServer()
+				{
+				   echo exec ( "sudo poweroff");										
+					
+				}
+
+
+				function restartServer()
+				{
+
+				   echo exec ( "sudo reboot");				
+
+				}
+
+				if(array_key_exists('poweroff',$_POST)){
+										
+					poweroffServer();
+
+				}else if(array_key_exists('restart',$_POST)){
+					
+					restartServer();
+
+				}
+
+			?>
 		</div>
 
 		<div id="tab-3" class="tab-pane">
-			<h3>About</h3>
+			<h3>About Internet in a Box Menu Plugin </h3>
+
+			<p>
+				This is a Wordpress plugin that displays the different offline websites and applications hosted on the Internet in a Box server inside wordpress. It also allows you to show or hide the offline websites on your front end.
+			</p>
+
+
+			<p>
+				To display the websites on the front end you have to create an empty wordpress  page and select “page-iiab-home” template.
+				
+			</p>
+
+			<p>
+				For any questions or suggestions please contact us.	
+			</p>
+
+			<br>
+
 		</div>
 	</div>
 </div>

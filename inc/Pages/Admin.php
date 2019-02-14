@@ -67,20 +67,27 @@ class Admin extends BaseController
 	{
 		$this->subpages = array(
 			array(
+			
+			/*
 				'parent_slug' => 'iiab_menu_plugin', 
 				'page_title' => 'Add New Menu Item', 
 				'menu_title' => 'Add New Menu', 
 				'capability' => 'manage_options', 
 				'menu_slug' => 'iiab_add_new', 
 				'callback' => array( $this->callbacks, 'adminAddNew' )
+			*/
 			),
 			array(
+
+			/*
 				'parent_slug' => 'iiab_menu_plugin', 
 				'page_title' => 'Manage IIAB Server', 
 				'menu_title' => 'Manage Server', 
 				'capability' => 'manage_options', 
 				'menu_slug' => 'iiab_manage_server', 
 				'callback' => array( $this->callbacks, 'adminManageServer' )
+
+			*/
 			)
 		);
 	}
