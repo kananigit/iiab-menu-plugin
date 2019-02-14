@@ -80,6 +80,13 @@ The plugin works just fine in the new Menuing system if you are just concerned a
 Currently your menu items will show in wordpress using the images at https://github.com/iiab/iiab-menu/tree/master/menu-files/images . 
 
 Most of them are meant to be logos and they might be blurry since they have a very small resolution. I have started to create a version of the images that has a 
-higer resolution so that they look better in wordpress.
+higher resolution so that they look better in wordpress.
 
 But am only doing a couple that i normally use. I will share a link to that soon.
+
+
+Also the different Menu Items are hardcoded in the plugin for now. I plan to make those dynamic and add a form to easily an item dynamically. Here is the link to the page.
+https://github.com/kananigit/iiab-menu-plugin/blob/master/inc/Base/BaseController.php
+
+I also plan to make the various plugin controls similar to the current "Amazing" Menuing system Tim and George put in place when i get some time soon.
+
