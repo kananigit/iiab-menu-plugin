@@ -7,18 +7,17 @@ Click on the Menu title "IIAB menu" from your sidebar navigation to acess a list
 
 After selecting the menu items you want scroll to the bottom and click "Save Changes".  
 
-# Note
-When you download the plugin from github it will rename the folder to "iiab-menu-plugin-master".  Rename it back to just "iiab-menu-plugin" before you upload it to wordpress to avoid any issues.
 
 # Displaying the Menu Items In the front end
 
-Currently  the plugin does not automatically display the menu items in the front page of your wordpress installation. I have to give the user an option to do that.
+Currently the plugin does not automatically display the menu items in the front page of your wordpress installation. I plan to give the user an option to do that in later versions.
 
 The plugin can display the menu items in any Wordpress page. Just create a new page and select "page-iiab-home" template.
 
 Visit the created page and you will see the selected iiab menu items.
 
 
+# The instructions below are for the old IIAB Menuing where you can also configure the box/home page. The plugin works just fine in the new Menuing system if you are just concerned about wordpress.  
 
 # The plugin also creates a menuItems.json file that can be used in configuring the original iiab server homepage
 For now after you save the menu items selection in the plugin, it also creates a json file in /library/www/html/home
