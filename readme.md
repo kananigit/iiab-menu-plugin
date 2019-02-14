@@ -17,10 +17,11 @@ The plugin can display the menu items in any Wordpress page. Just create a new p
 Visit the created page and you will see the selected iiab menu items.
 
 
-# The instructions below are for the old IIAB Menuing where you can also configure the box/home page. The plugin works just fine in the new Menuing system if you are just concerned about wordpress.  
 
-# The plugin also creates a menuItems.json file that can be used in configuring the original iiab server homepage
-For now after you save the menu items selection in the plugin, it also creates a json file in /library/www/html/home
+# The instructions below are for the old IIAB Menuing 
+You also automatically configure the box/home page when you save your selection of menu Items in the plugin. 
+
+When you save the menu items selection, it also creates a menuItems.json file in /library/www/html/home
 
 You have to slightly alter the index.html in the same directory- /library/www/html/home- for this to work.
 
@@ -71,6 +72,8 @@ Save a copy of these original file and delete these array and edit your head tag
 Thats all you have to do and now whenever you update your list of menu items from the Wordpress plugin, the changes will show in the iiab homepage in 172.18.96.1/home  
 
 
+# New IIAB Menuing system
+The plugin works just fine in the new Menuing system if you are just concerned about wordpress.  It however does not automatically configure the box/home   page.
 
 
 Improvements
