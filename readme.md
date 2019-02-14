@@ -76,7 +76,7 @@ Thats all you have to do and now whenever you update your list of menu items fro
 The plugin works just fine in the new Menuing system if you are just concerned about wordpress.  It however does not automatically configure the box/home   page.
 
 
-Improvements
+# Improvements
 Currently your menu items will show in wordpress using the images at https://github.com/iiab/iiab-menu/tree/master/menu-files/images . 
 
 Most of them are meant to be logos and they might be blurry since they have a very small resolution. I have started to create a version of the images that has a 
